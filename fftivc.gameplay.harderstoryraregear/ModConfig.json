@@ -1,0 +1,45 @@
+{
+  "ModId": "fftivc.gameplay.harderstoryraregear",
+  "ModName": "Harder Story Battles: Rare Equipment Redistribution",
+  "ModAuthor": "Zodiark",
+  "ModVersion": "0.1.0",
+  "ModDescription": "Scales story battle enemy levels to stay ahead of you, equips them with level-appropriate gear, randomizes their abilities, and maxes their job levels. Best suited for NG\u002B.",
+  "ModDll": "",
+  "ModIcon": "preview.png",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.gameplay.harderstoryraregear.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json",
+    "fftivc\\.gameplay\\.harderstoryraregear\\.nuspec"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Zodi-ark",
+      "RepositoryName": "Harder-Story-Battles-Rare-Equipment-Redistribution",
+      "UseReleaseTag": true,
+      "AssetFileName": "fftivc.gameplay.harderstoryraregear.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/Zodi-ark/Harder-Story-Battles-Rare-Equipment-Redistribution"
+}

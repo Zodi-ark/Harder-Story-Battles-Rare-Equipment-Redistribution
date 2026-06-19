@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This table file is used to overwrite the game's hardcoded item table.
+
+Refer to: https://ffhacktics.com/wiki/Item_Data
+This table links to nex table 'Item'. Some properties edited here may be overriden by the nex table.
+
+You can use this file as a base to edit Item data in your mod.
+Simply copy this file to your mod's folder under FFTIVC/tables/<enhanced/classic/combined>/ItemData.xml.
+
+IMPORTANT: You are free to remove everything and **SHOULD ONLY LEAVE ELEMENTS THAT YOU HAVE EDITED** to avoid conflicts between mods.
+Only properties that are actually included in this file will be tracked as edited. Properties not edited will inherit their
+value from the original table or, from other mods making changes depending on mod order.
+
+IMPORTANT 2: The Id property must NOT be removed for nodes that you're leaving here!
+
+IMPORTANT 3: Id cannot be more than 260 (hardcoded table size is 261 across two tables - 256 + 5 (extended)).
+
+For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader/blob/master/fftivc.utility.modloader.Interfaces/Tables/Structures/ITEM_COMMON_DATA.cs
+-->
+
+<ItemTable>
+  <Version>1</Version>
+  <Entries>
+    <Item>
+      <Id>10</Id> <!-- Zwill Straightblade / そーりんしぇいふ / lame de solingen / zorlin-dolch -->
+      <Palette>2</Palette>
+      <SpriteID>4</SpriteID>
+      <RequiredLevel>41</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>10</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Knife</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>12000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>16</Id> <!-- Sasuke's Blade / さすけのかたな / katana de sasuke / sasukenin -->
+      <Palette>4</Palette>
+      <SpriteID>7</SpriteID>
+      <RequiredLevel>73</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>16</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>NinjaBlade</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>17</Id> <!-- Iga Blade / いかにんとう / lame diga / iganin -->
+      <Palette>13</Palette>
+      <SpriteID>10</SpriteID>
+      <RequiredLevel>84</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>17</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>NinjaBlade</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>18</Id> <!-- Koga Blade / こうかにんとう / lame de koga / koganin -->
+      <Palette>11</Palette>
+      <SpriteID>11</SpriteID>
+      <RequiredLevel>93</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>18</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>NinjaBlade</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>23</Id> <!-- Blood Sword / ふらっとそーと / epee sanguine / blutschwert -->
+      <Palette>3</Palette>
+      <SpriteID>14</SpriteID>
+      <RequiredLevel>12</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>23</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Sword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>2500</Price>
+      <ShopAvailability>Chapter2_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>33</Id> <!-- Defender / てぃふぇんたー / defenderesse / verteidiger -->
+      <Palette>3</Palette>
+      <SpriteID>22</SpriteID>
+      <RequiredLevel>43</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>33</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>40000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>34</Id> <!-- Save the Queen / せいふさくぃーん / garde la reine / koniginnenwache -->
+      <Palette>0</Palette>
+      <SpriteID>23</SpriteID>
+      <RequiredLevel>74</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>34</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>2</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>35</Id> <!-- Excalibur / えくすかりはー / excalibur / excalibur -->
+      <Palette>3</Palette>
+      <SpriteID>24</SpriteID>
+      <RequiredLevel>97</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>35</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>3</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>36</Id> <!-- Ragnarok / らくなろく / ragnarok / ragnarok -->
+      <Palette>4</Palette>
+      <SpriteID>25</SpriteID>
+      <RequiredLevel>86</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>36</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>KnightSword</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>4</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>46</Id> <!-- Masamune / まさむね / masamune / masamune -->
+      <Palette>5</Palette>
+      <SpriteID>27</SpriteID>
+      <RequiredLevel>82</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>46</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Katana</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>47</Id> <!-- Chirijiraden / ちりしらてんかさりつるき / chirijiraden kazari / chirijiraden -->
+      <Palette>3</Palette>
+      <SpriteID>26</SpriteID>
+      <RequiredLevel>96</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>47</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Katana</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>61</Id> <!-- Healing Staff / いやしのつえ / baton guerisseur / heilerstab -->
+      <Palette>0</Palette>
+      <SpriteID>40</SpriteID>
+      <RequiredLevel>9</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>61</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Staff</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>4000</Price>
+      <ShopAvailability>Chapter1_KillMiluda</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>65</Id> <!-- Zeus Mace / めいすおふせうす / masse de zeus / zeus kolben -->
+      <Palette>0</Palette>
+      <SpriteID>42</SpriteID>
+      <RequiredLevel>45</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>65</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Staff</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>11</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>70</Id> <!-- Scorpion Tail / さそりのしっほ / queue de scorpion / skorpion -->
+      <Palette>3</Palette>
+      <SpriteID>43</SpriteID>
+      <RequiredLevel>64</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>70</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Flail</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>40000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>71</Id> <!-- Romandan Pistol / ろまんたしゅう / fusil romandien / romanda-flinte -->
+      <Palette>5</Palette>
+      <SpriteID>44</SpriteID>
+      <RequiredLevel>33</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>71</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Gun</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>5000</Price>
+      <ShopAvailability>Chapter2_MeetDraclau</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>72</Id> <!-- Mythril Gun / みすりるしゅう / fusil de mithril / mithril-flinte -->
+      <Palette>7</Palette>
+      <SpriteID>44</SpriteID>
+      <RequiredLevel>44</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>72</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Gun</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>15000</Price>
+      <ShopAvailability>Chapter3_Zalmo</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>74</Id> <!-- Glacial Gun / くれいしゃるかん / cryopistolet / frostflinte -->
+      <Palette>2</Palette>
+      <SpriteID>46</SpriteID>
+      <RequiredLevel>55</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>74</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Gun</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>75</Id> <!-- Blaze Gun / ふれいすかん / pyropistolet / feuertrommel -->
+      <Palette>3</Palette>
+      <SpriteID>46</SpriteID>
+      <RequiredLevel>66</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>75</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Gun</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>76</Id> <!-- Blaster / ふらすとかん / foudropistolet / strahlenkanone -->
+      <Palette>5</Palette>
+      <SpriteID>46</SpriteID>
+      <RequiredLevel>77</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>76</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Gun</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>78</Id> <!-- Knightslayer / ないときらー / galanticide / ritterschreck -->
+      <Palette>1</Palette>
+      <SpriteID>47</SpriteID>
+      <RequiredLevel>5</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>78</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Crossbow</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>1500</Price>
+      <ShopAvailability>Chapter1_KillMiluda</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>82</Id> <!-- Gastrophetes / かすとらふぇてす / gastraphete / gastraphetes -->
+      <Palette>2</Palette>
+      <SpriteID>48</SpriteID>
+      <RequiredLevel>33</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>82</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Crossbow</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>20000</Price>
+      <ShopAvailability>Chapter4_Bethla</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>90</Id> <!-- Yoichi Bow / よいちのゆみ / arc de yoichi / yoichi-bogen -->
+      <Palette>3</Palette>
+      <SpriteID>52</SpriteID>
+      <RequiredLevel>48</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>90</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bow</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>91</Id> <!-- Perseus Bow / へるせうすのゆみ / arc de persee / perseus' bogen -->
+      <Palette>5</Palette>
+      <SpriteID>53</SpriteID>
+      <RequiredLevel>78</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>91</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bow</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>94</Id> <!-- Faerie Harp / ようせいのはーふ / harpe de fee / feenharfe -->
+      <Palette>2</Palette>
+      <SpriteID>54</SpriteID>
+      <RequiredLevel>36</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>94</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Instrument</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>30000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>98</Id> <!-- Omnilex / またれむしえん / omnilex / omnilex -->
+      <Palette>3</Palette>
+      <SpriteID>55</SpriteID>
+      <RequiredLevel>64</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>98</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Book</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>30000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>104</Id> <!-- Holy Lance / ほーりーらんす / lance sacree / heilige lanze -->
+      <Palette>2</Palette>
+      <SpriteID>60</SpriteID>
+      <RequiredLevel>42</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>104</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Polearm</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>36000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>105</Id> <!-- Dragon Whisker / りゅうのひけ / barbe de dragon / drachenbart -->
+      <Palette>5</Palette>
+      <SpriteID>56</SpriteID>
+      <RequiredLevel>69</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>105</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Polearm</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>44000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>112</Id> <!-- Ivory Pole / そうけのほう / baton divoire / elfenbeinstab -->
+      <Palette>6</Palette>
+      <SpriteID>64</SpriteID>
+      <RequiredLevel>40</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>112</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Pole</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>114</Id> <!-- Whale Whisker / くしらのひけ / barbe de cachalot / walbart -->
+      <Palette>3</Palette>
+      <SpriteID>65</SpriteID>
+      <RequiredLevel>64</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>114</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Pole</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>37000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>115</Id> <!-- Catskin Bag / ちゃこるのはっく / sac de marque c. / chagaulle-tasche -->
+      <Palette>2</Palette>
+      <SpriteID>66</SpriteID>
+      <RequiredLevel>32</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>115</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bag</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>12</EquipBonusId>
+      <Price>53000</Price>
+      <ShopAvailability>Chapter3_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>116</Id> <!-- Fallingstar Bag / ふぁすてのはっく / sac de marque f.s. / fastait-tasche -->
+      <Palette>7</Palette>
+      <SpriteID>66</SpriteID>
+      <RequiredLevel>74</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>116</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bag</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>117</Id> <!-- Proudhide Bag / はとらのはっく / sac de marque p. / patora-tasche -->
+      <Palette>5</Palette>
+      <SpriteID>66</SpriteID>
+      <RequiredLevel>47</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>117</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bag</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>13</EquipBonusId>
+      <Price>52000</Price>
+      <ShopAvailability>Chapter3_MeetVelius</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>118</Id> <!-- Hardscale Bag / へりおねのはっく / sac de marque h. / helione-tasche -->
+      <Palette>1</Palette>
+      <SpriteID>66</SpriteID>
+      <RequiredLevel>60</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>118</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Bag</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>14</EquipBonusId>
+      <Price>58000</Price>
+      <ShopAvailability>Chapter4_Bethla</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>121</Id> <!-- Wyrmweave Silk / りょうさんけん / etoffe de brocart / seidentuch -->
+      <Palette>6</Palette>
+      <SpriteID>67</SpriteID>
+      <RequiredLevel>58</RequiredLevel>
+      <TypeFlags>Weapon</TypeFlags>
+      <AdditionalDataId>121</AdditionalDataId> <!-- ItemWeaponData id -->
+      <ItemCategory>Cloth</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>40000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>140</Id> <!-- Genji Shield / けんしのたて / bouclier genji / genji-schild -->
+      <Palette>5</Palette>
+      <SpriteID>73</SpriteID>
+      <RequiredLevel>74</RequiredLevel>
+      <TypeFlags>Shield</TypeFlags>
+      <AdditionalDataId>12</AdditionalDataId> <!-- ItemShieldData id -->
+      <ItemCategory>Shield</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>141</Id> <!-- Kaiser Shield / かえさるふれーと / bouclier de cesar / kaiserschild -->
+      <Palette>1</Palette>
+      <SpriteID>76</SpriteID>
+      <RequiredLevel>81</RequiredLevel>
+      <TypeFlags>Shield</TypeFlags>
+      <AdditionalDataId>13</AdditionalDataId> <!-- ItemShieldData id -->
+      <ItemCategory>Shield</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>18</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>142</Id> <!-- Venetian Shield / へねちあふれーと / bouclier venitien / venetia-schild -->
+      <Palette>3</Palette>
+      <SpriteID>75</SpriteID>
+      <RequiredLevel>89</RequiredLevel>
+      <TypeFlags>Shield</TypeFlags>
+      <AdditionalDataId>14</AdditionalDataId> <!-- ItemShieldData id -->
+      <ItemCategory>Shield</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>19</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>155</Id> <!-- Genji Helm / けんしのかふと / casque genji / genji-helm -->
+      <Palette>12</Palette>
+      <SpriteID>88</SpriteID>
+      <RequiredLevel>61</RequiredLevel>
+      <TypeFlags>Headgear</TypeFlags>
+      <AdditionalDataId>11</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Helmet</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>156</Id> <!-- Grand Helm / くらんとへるむ / casque de maitre / stechhelm -->
+      <Palette>9</Palette>
+      <SpriteID>89</SpriteID>
+      <RequiredLevel>80</RequiredLevel>
+      <TypeFlags>Headgear</TypeFlags>
+      <AdditionalDataId>12</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Helmet</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>20</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>169</Id> <!-- Hairband / かちゅーしゃ / serre tete / haarreif -->
+      <Palette>11</Palette>
+      <SpriteID>100</SpriteID>
+      <RequiredLevel>43</RequiredLevel>
+      <TypeFlags>Headgear</TypeFlags>
+      <AdditionalDataId>25</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>HairAdornment</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>69</EquipBonusId>
+      <Price>20000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>170</Id> <!-- Barrette / はれった / barrette / haarspange -->
+      <Palette>12</Palette>
+      <SpriteID>101</SpriteID>
+      <RequiredLevel>55</RequiredLevel>
+      <TypeFlags>Headgear</TypeFlags>
+      <AdditionalDataId>26</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>HairAdornment</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>70</EquipBonusId>
+      <Price>20000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>171</Id> <!-- Ribbon / りほん / ruban / schleife -->
+      <Palette>11</Palette>
+      <SpriteID>102</SpriteID>
+      <RequiredLevel>67</RequiredLevel>
+      <TypeFlags>Headgear</TypeFlags>
+      <AdditionalDataId>27</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>HairAdornment</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>71</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>183</Id> <!-- Genji Armor / けんしのよろい / armure genji / genji-rustung -->
+      <Palette>3</Palette>
+      <SpriteID>111</SpriteID>
+      <RequiredLevel>65</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>39</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Armor</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>184</Id> <!-- Mirror Mail / りふれくとめいる / cotte reflectrice / reflek-rustung -->
+      <Palette>3</Palette>
+      <SpriteID>112</SpriteID>
+      <RequiredLevel>47</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>40</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Armor</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>29</EquipBonusId>
+      <Price>18000</Price>
+      <ShopAvailability>Chapter4_Bethla</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>185</Id> <!-- Maximillian / まくしみりあん / maximilien / maximiliansharnisch -->
+      <Palette>13</Palette>
+      <SpriteID>113</SpriteID>
+      <RequiredLevel>86</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>41</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Armor</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>197</Id> <!-- Ninja Gear / しのひのころも / tenue de shinobi / ninja-anzug -->
+      <Palette>3</Palette>
+      <SpriteID>114</SpriteID>
+      <RequiredLevel>35</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>53</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Clothing</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>33</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>199</Id> <!-- Rubber Suit / らはーこんしゃす / tunique de latex / gummianzug -->
+      <Palette>3</Palette>
+      <SpriteID>125</SpriteID>
+      <RequiredLevel>77</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>55</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Clothing</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>35</EquipBonusId>
+      <Price>48000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>203</Id> <!-- Chameleon Robe / かめれおんろーふ / robe cameleon / mistelrobe -->
+      <Palette>11</Palette>
+      <SpriteID>128</SpriteID>
+      <RequiredLevel>16</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>59</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Robe</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>37</EquipBonusId>
+      <Price>5000</Price>
+      <ShopAvailability>Chapter3_Zalmo</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>207</Id> <!-- Lordly Robe / ろーふおふろーと / robe de monarque / furstenmantel -->
+      <Palette>13</Palette>
+      <SpriteID>127</SpriteID>
+      <RequiredLevel>86</RequiredLevel>
+      <TypeFlags>Armor</TypeFlags>
+      <AdditionalDataId>63</AdditionalDataId> <!-- ItemArmorData id -->
+      <ItemCategory>Robe</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>41</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>211</Id> <!-- Rubber Boots / らはーしゅーす / bottes en latex / gummischuhe -->
+      <Palette>1</Palette>
+      <SpriteID>135</SpriteID>
+      <RequiredLevel>5</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>3</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Shoes</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>45</EquipBonusId>
+      <Price>1500</Price>
+      <ShopAvailability>Chapter2_MeetDraclau</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>212</Id> <!-- Winged Boots / ふぇさーふーつ / bottes ailees / federstiefel -->
+      <Palette>2</Palette>
+      <SpriteID>136</SpriteID>
+      <RequiredLevel>50</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>4</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Shoes</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>46</EquipBonusId>
+      <Price>2500</Price>
+      <ShopAvailability>Chapter3_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>213</Id> <!-- Hermes Shoes / えるめすのくつ / sandales dhermes / hermes-stiefel -->
+      <Palette>5</Palette>
+      <SpriteID>137</SpriteID>
+      <RequiredLevel>35</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>5</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Shoes</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>47</EquipBonusId>
+      <Price>7000</Price>
+      <ShopAvailability>Chapter3_SaveRafa</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>214</Id> <!-- Red Shoes / あかいくつ / souliers rouges / rote stiefel -->
+      <Palette>3</Palette>
+      <SpriteID>138</SpriteID>
+      <RequiredLevel>40</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>6</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Shoes</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>48</EquipBonusId>
+      <Price>10000</Price>
+      <ShopAvailability>Chapter4_Bethla</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>216</Id> <!-- Genji Gloves / けんしのこて / gants genji / genji-handschuhe -->
+      <Palette>3</Palette>
+      <SpriteID>140</SpriteID>
+      <RequiredLevel>88</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>8</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Armguard</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>50</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>219</Id> <!-- Reflect Ring / りふれくとりんく / bague reflectrice / spiegelring -->
+      <Palette>0</Palette>
+      <SpriteID>143</SpriteID>
+      <RequiredLevel>50</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>11</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Ring</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>53</EquipBonusId>
+      <Price>10000</Price>
+      <ShopAvailability>Chapter3_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>222</Id> <!-- Cursed Ring / のろいのゆひわ / bague maudite / fluchring -->
+      <Palette>4</Palette>
+      <SpriteID>144</SpriteID>
+      <RequiredLevel>72</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>14</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Ring</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>56</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>223</Id> <!-- Angel Ring / てんしのゆひわ / bague dange / engelsring -->
+      <Palette>8</Palette>
+      <SpriteID>145</SpriteID>
+      <RequiredLevel>25</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>15</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Ring</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>57</EquipBonusId>
+      <Price>20000</Price>
+      <ShopAvailability>Chapter4_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>235</Id> <!-- Invisibility Cloak / きえるまんと / cape invisible / tarnmantel -->
+      <Palette>14</Palette>
+      <SpriteID>157</SpriteID>
+      <RequiredLevel>65</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>27</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Cloak</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>64</EquipBonusId>
+      <Price>10</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>236</Id> <!-- Chantage / しゃんたーしゅ / chantage / chantage -->
+      <Palette>11</Palette>
+      <SpriteID>158</SpriteID>
+      <RequiredLevel>75</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>28</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Perfume</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>65</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>237</Id> <!-- Envoûtement / しぇるしぇ / envoutement / envoutement -->
+      <Palette>13</Palette>
+      <SpriteID>159</SpriteID>
+      <RequiredLevel>55</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>29</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Perfume</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>66</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>238</Id> <!-- Septième Sens / せってぃえむそん / septieme sens / septieme sens -->
+      <Palette>2</Palette>
+      <SpriteID>160</SpriteID>
+      <RequiredLevel>65</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>30</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Perfume</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>67</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>239</Id> <!-- Sortilège / そるてぃれーしゅ / sortilege / sortilege -->
+      <Palette>8</Palette>
+      <SpriteID>161</SpriteID>
+      <RequiredLevel>50</RequiredLevel>
+      <TypeFlags>Accessory</TypeFlags>
+      <AdditionalDataId>31</AdditionalDataId> <!-- ItemAccesoryData Id -->
+      <ItemCategory>Perfume</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>68</EquipBonusId>
+      <Price>60000</Price>
+      <ShopAvailability>Unknown20</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>240</Id> <!-- Potion / ほーしょん / potion / heiltrank -->
+      <Palette>13</Palette>
+      <SpriteID>162</SpriteID>
+      <RequiredLevel>1</RequiredLevel>
+      <TypeFlags>Rare</TypeFlags>
+      <AdditionalDataId>0</AdditionalDataId> <!-- ItemConsumableData Id: 0 -->
+      <ItemCategory>Item</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>150</Price>
+      <ShopAvailability>Chapter1_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>241</Id> <!-- High Potion / はいほーしょん / super potion / supertrank -->
+      <Palette>13</Palette>
+      <SpriteID>176</SpriteID>
+      <RequiredLevel>2</RequiredLevel>
+      <TypeFlags>Rare</TypeFlags>
+      <AdditionalDataId>1</AdditionalDataId> <!-- ItemConsumableData Id: 1 -->
+      <ItemCategory>Item</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>600</Price>
+      <ShopAvailability>Chapter1_SaveElmdor</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+    <Item>
+      <Id>242</Id> <!-- X-Potion / えくすほーしょん / maxi potion / ubertrank -->
+      <Palette>13</Palette>
+      <SpriteID>177</SpriteID>
+      <RequiredLevel>3</RequiredLevel>
+      <TypeFlags>Rare</TypeFlags>
+      <AdditionalDataId>2</AdditionalDataId> <!-- ItemConsumableData Id: 2 -->
+      <ItemCategory>Item</ItemCategory>
+      <Unused_0x06>0</Unused_0x06>
+      <EquipBonusId>0</EquipBonusId>
+      <Price>2100</Price>
+      <ShopAvailability>Chapter3_Start</ShopAvailability>
+      <Unused_0x0B>0</Unused_0x0B>
+    </Item>
+  </Entries>
+</ItemTable>
