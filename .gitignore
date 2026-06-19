@@ -1,0 +1,9 @@
+# GIMP
+# ------------------------
+*.xcf
+
+# PNG
+# ------------------------
+**/*.png
+
+!/fftivc.gameplay.harderstoryraregear/*.png
