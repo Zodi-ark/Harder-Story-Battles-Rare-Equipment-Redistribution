@@ -3,7 +3,7 @@
   "ModName": "Harder Story Battles: Rare Equipment Redistribution",
   "ModAuthor": "Zodiark",
   "ModVersion": "0.1.0",
-  "ModDescription": "Scales story battle enemy levels to stay ahead of you, equips them with level-appropriate gear, randomizes their abilities, and maxes their job levels. Best suited for NG\u002B.",
+  "ModDescription": "Scales story battle enemy levels to stay ahead of you, equips them with level-appropriate gear, randomizes their abilities, and maxes their job levels. Additionally, rare equipment is redistributed into enemy level lists. Best suited for NG\u002B.",
   "ModDll": "",
   "ModIcon": "preview.png",
   "ModR2RManagedDll32": "",
