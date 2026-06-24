@@ -2,7 +2,7 @@
   "ModId": "fftivc.gameplay.harderstoryraregear",
   "ModName": "Harder Story Battles: Rare Equipment Redistribution",
   "ModAuthor": "Zodiark",
-  "ModVersion": "0.3.0",
+  "ModVersion": "0.3.1",
   "ModDescription": "Scales story battle enemy levels to stay ahead of you, equips them with level-appropriate gear, randomizes their abilities, and maxes their job levels. Additionally, rare equipment is redistributed into enemy level lists. Best suited for NG\u002B.",
   "ModDll": "",
   "ModIcon": "preview.png",
