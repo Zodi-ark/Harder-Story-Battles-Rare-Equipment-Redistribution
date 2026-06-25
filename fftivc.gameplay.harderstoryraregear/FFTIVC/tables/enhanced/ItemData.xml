@@ -97,7 +97,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>33</Id> <!-- Defender / てぃふぇんたー / defenderesse / verteidiger -->
       <Palette>3</Palette>
       <SpriteID>22</SpriteID>
-      <RequiredLevel>43</RequiredLevel>
+      <RequiredLevel>40</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>33</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>KnightSword</ItemCategory>
@@ -111,7 +111,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>34</Id> <!-- Save the Queen / せいふさくぃーん / garde la reine / koniginnenwache -->
       <Palette>0</Palette>
       <SpriteID>23</SpriteID>
-      <RequiredLevel>74</RequiredLevel>
+      <RequiredLevel>50</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>34</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>KnightSword</ItemCategory>
@@ -139,7 +139,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>36</Id> <!-- Ragnarok / らくなろく / ragnarok / ragnarok -->
       <Palette>4</Palette>
       <SpriteID>25</SpriteID>
-      <RequiredLevel>86</RequiredLevel>
+      <RequiredLevel>76</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>36</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>KnightSword</ItemCategory>
@@ -223,7 +223,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>71</Id> <!-- Romandan Pistol / ろまんたしゅう / fusil romandien / romanda-flinte -->
       <Palette>5</Palette>
       <SpriteID>44</SpriteID>
-      <RequiredLevel>33</RequiredLevel>
+      <RequiredLevel>10</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>71</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>Gun</ItemCategory>
@@ -237,7 +237,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>72</Id> <!-- Mythril Gun / みすりるしゅう / fusil de mithril / mithril-flinte -->
       <Palette>7</Palette>
       <SpriteID>44</SpriteID>
-      <RequiredLevel>44</RequiredLevel>
+      <RequiredLevel>16</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>72</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>Gun</ItemCategory>
@@ -251,7 +251,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>74</Id> <!-- Glacial Gun / くれいしゃるかん / cryopistolet / frostflinte -->
       <Palette>2</Palette>
       <SpriteID>46</SpriteID>
-      <RequiredLevel>55</RequiredLevel>
+      <RequiredLevel>35</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>74</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>Gun</ItemCategory>
@@ -265,7 +265,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Id>75</Id> <!-- Blaze Gun / ふれいすかん / pyropistolet / feuertrommel -->
       <Palette>3</Palette>
       <SpriteID>46</SpriteID>
-      <RequiredLevel>66</RequiredLevel>
+      <RequiredLevel>49</RequiredLevel>
       <TypeFlags>Weapon</TypeFlags>
       <AdditionalDataId>75</AdditionalDataId> <!-- ItemWeaponData id -->
       <ItemCategory>Gun</ItemCategory>

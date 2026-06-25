@@ -2,7 +2,7 @@
   "ModId": "fftivc.gameplay.harderstoryraregear",
   "ModName": "Harder Story Battles: Rare Equipment Redistribution",
   "ModAuthor": "Zodiark",
-  "ModVersion": "0.4.0",
+  "ModVersion": "0.5.0",
   "ModDescription": "Scales story battle enemy levels to stay ahead of you, equips them with level-appropriate gear, randomizes their abilities, and maxes their job levels. Additionally, rare equipment is redistributed into enemy level lists. Best suited for NG\u002B.",
   "ModDll": "",
   "ModIcon": "preview.png",
@@ -31,6 +31,37 @@
       "RepositoryName": "Harder-Story-Battles-Rare-Equipment-Redistribution",
       "UseReleaseTag": true,
       "AssetFileName": "fftivc.gameplay.harderstoryraregear.zip"
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "fftivc.utility.modloader": {
+          "Config": {
+            "UserName": "Nenkai",
+            "RepositoryName": "fftivc.utility.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "fftivc.utility.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
     }
   },
   "IsUniversalMod": false,
